@@ -63,8 +63,7 @@ Here's a photo of the final assembly:
 
 ![Final assembly](assets/images/together.jpg)
 
-That's it! You should be ready to program the ATtiny.
-______________
+That's it! You should be ready to program the ATtiny. Next, we'll go through the steps of modifying an Arduino program to work on the ATtiny.
 
 
 
@@ -78,7 +77,7 @@ There's one thing we'll need to change in this sketch before it'll work on the A
 
 ![ATtiny85 pins](assets/images/ATtiny85.svg)
 
-So, let's change the "led" variable at the top of the sketch from 13 to 3.
+Looking at our circuit and this diagram, you'll notice that the resistor that leads to the LED is connected to the pin labeled "PIN 3." So, let's change the "led" variable at the top of the sketch from 13 to 3.
 
 before:
 
@@ -88,7 +87,12 @@ after:
 
 `int led = 3;`
 	
+Now, the sketch will blink the ATtiny's PIN 3. You might have noticed that these pin numbers are "virtual" -- they don't match up with the actual pin numbers on the ATtiny chip. "PIN 3" is actually the 2nd pin on the chip. It's annoying, but make sure to remember this! Always use the above diagram when plugging things in.
 
+That's it! Go ahead and upload the program. The LED should now blink.
 
+Troubleshooting
+---------------
+(more to come here..)
 
 
