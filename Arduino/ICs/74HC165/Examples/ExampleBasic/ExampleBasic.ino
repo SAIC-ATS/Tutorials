@@ -31,21 +31,19 @@ void loop(){
   // (retrieve the bits of your inByte starting with the most 
   // significant bit first) or LSBFIRST (retrieve the bits of your
   // inByte starting with the least significant bit). 
-  byte inByte = shiftIn165(dataPin,clockPin,LSBFIRST);
+  byte inByte = shiftIn165(dataPin,clockPin,MSBFIRST);
 
-  Serial.println(inByte, BIN); //debugging in serial window of switches 1 through 8)
+  Serial.write(inByte); //debugging in serial window of switches 1 through 8)
 
   // take a breather to prevent serial buffer overflow
   delay (10); 
 }
 
 /*
- *
  * Here we define an alternate shiftIn function. The only difference 
  * between this shift in function and the built-in shiftIn function 
  * is that the clock must got LOW before shifting and HIGH after 
  * shifting.  This is the opposite of the built in Arduino shiftIn.
- *
  */
 uint8_t shiftIn165(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder) {
 	uint8_t value = 0;
