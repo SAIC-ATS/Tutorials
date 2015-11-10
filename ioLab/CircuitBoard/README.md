@@ -58,8 +58,29 @@ Once the settings are good to go, press *make .path*.  Wait a few moments (the R
 
 Let's move on to the settings on the far right of the window.
 - **speed (mm/s):** The speed the bit will move through the material. 4 mm/s is a safe speed for both etching traces and cutting out the board.
-- **jog (mm):** The height the bit will lift for travel
+- **jog (mm):** The height the bit will lift for travel.
+- **x min (mm)** and **y min(mm):** start point relative to the origin of the mill. 10, 10 is a good place to start.
 
+// HERE THERE BE LOTS OF WORK TO DO
+
+Set the settings and then hit *make .rml* then hit *send!* This will open up an new window.
+
+## 4. Preparing the raw circuit board and mill
+1. Adhere board to bed
+2. Insert trace cutting bit
+3. Set z zero
+4. Start milling job
+
+## 5. Repeat for Outline
+1. Repeat steps 1-4, changing out engraving bit for 1mm flat mill
+
+## 6. Finishing
+1. Vacuum
+2. Scrape PCB off of bed
+3. Touch up, check traces, check continuity
+4. Drill holes
+5. Wash off finger oils
+6. Solder in components
 
 
 
