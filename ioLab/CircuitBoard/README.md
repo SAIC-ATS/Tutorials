@@ -88,6 +88,7 @@ To cut the board out, we can use steps 1-4 above with a few modifications:
 Once we have cut the traces and cut out the board, it is time to put it into use!!!  Use a scraper to get the PCB off the bed of the mill and remove all double-sided tape.  At this point, inspect the board for any potential problems.  the edges of the traces should be smooth.  If there are any burrs, they can be gently sanded away or cut away with a utility knife.  Check each of the pads and connections for continuity.  Make sure the traces that should be electrically connected are and make sure things that shouldn't be electrically connected aren't.  Check the large empty areas of copper left on your board in addition to the traces.  If you have a connection where there shouldn't be one, inspecting the board under a magnifying glass or microscope can help.  Sometimes small bits of copper get stuck in the troughs and connect two adjacent pieces of copper.
 
 Drill holes for your components using a small (~0.7mm) drill bit. The 
+
 1. Vacuum
 2. Scrape PCB off of bed
 3. Touch up, check traces, check continuity
