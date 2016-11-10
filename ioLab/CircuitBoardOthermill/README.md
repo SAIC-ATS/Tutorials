@@ -24,6 +24,7 @@ Ok, so now we have the pcb view up, and you can see that I already have all my c
 ![alt text][3]
 
 Once we've passed the DRC and we're ready to export, go to *File-->Export-->For Production-->Extended Gerber (RSX274X)*. Specify the folder you'd like to export to. *Hint: This action exports several files all at once, so I recommend creating a new folder for each project.  Just exporting it to your desktop or wherever will become a mess real fast. 
+
 ![alt text][4]
 
 ## 3. Preparing the file for milling in Otherplan
@@ -45,22 +46,30 @@ Specify which endmills you will be using for your job.  For this design, we will
 
 ## 4. Preparing the circuit board blank and mill
 In order to mill a circuit board, our pcb blank needs to be affixed to the mill's bed so it won't move around while the job is running.  A few strips of double-sided tape will do the trick here.  Make sure there are no folds or crinkles in the tape and that the tape is not overlapping itself.  We want the board to be as level as possible for milling and even a double thickness of tape can throw things off. It should look something like this:
+
 ![alt text][7]
+
 ![alt text][8]
+
 Next, we need to put the bit into the mill. Please refer to this [excellent tutorial](https://othermachine.co/support/basics/tool-locating/) from the Othermachine Co. for details on inserting and locating an endmill.  
+
 ![alt text][9]
 
 When you have imported your design and chosen all the parameters, begin milling the board by clicking "Start Milling." There will also be an estimate of the time it will take to mill your board.  Otherplan will inform you when and how to change endmills.
 
 ## 5. Finishing
 Once we have cut the traces and cut out the board, it is time to put it into use!!!  Use a scraper to get the PCB off the bed of the mill and remove all double-sided tape and dust from both the spoilboard and your PCB.  Don't forget to vacuum out the Othermill so it is clean for the next person! 
+
 ![alt text][10]
+
 ![alt text][11]
+
 At this point, inspect the board for any potential problems.  the edges of the traces should be smooth.  If there are any burrs, they can be gently sanded away or cut away with a utility knife.  Check each of the pads and connections for continuity.  Make sure the traces that should be electrically connected are and make sure things that shouldn't be electrically connected aren't.  Check the large empty areas of copper left on your board in addition to the traces.  If you have a connection where there shouldn't be one, inspecting the board under a magnifying glass or microscope can help.  Sometimes small bits of copper get stuck in the troughs and connect two adjacent pieces of copper.
 
 If you have been handling your PCB a lot, you may want to give it a wipe down with some alcohol or acetone to take finger oils off of the copper. These oils can make soldering difficult and corrode the copper in the long run.  Handle the board with gloves or by the edges after you do this.
 
 You are now ready to solder in your components!  This is what mine looked like when I was all done:
+
 ![alt text][12]
 
 This concludes the tutorial.  
@@ -80,7 +89,7 @@ This concludes the tutorial.
 [9]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/CircuitBoardOthermill/assets/images/EndmillCollet.jpg?raw=true "Endmill in collet."
 [10]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/CircuitBoardOthermill/assets/images/Scraper.jpg?raw=true "Using scraper to get board off."
 [11]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/CircuitBoardOthermill/assets/images/FinishedBoard.jpg?raw=true "Finished board."
-[12]: "Soldered all up!"
+[12]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/CircuitBoardOthermill/assets/images/Soldered.jpg?raw=true "Soldered all up!"
 
 
 
