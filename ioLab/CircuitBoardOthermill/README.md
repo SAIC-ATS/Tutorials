@@ -11,7 +11,7 @@ For this tutorial, let's assume that you already have [downloaded](http://fritzi
 Ok, let's get started!!
 
 ## 1. Using Fritzing to design the PCB.
-If you're ready to design and fabricate a PCB, that usually means that you have already worked out your circuit on a breadboard.  You may even have soldered up one or two of said circuit on a protoboard. A dedicated PCB can save you space and keep you from having to solder a million jumpers all over your protoboard.  For this tutorial, we're going to use a PWM controller I designed based on [this circuit.](http://makezine.com/projects/the-dial-a-speed/).  This circuit and it will show some of the features of that can make a PCB more desirable than a protoboard.  [Here](https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/CircuitBoardOthermill/assets/555PWM.fzz) is the Fritzing file we'll be using (it is also in the assets folder of this repo).
+If you're ready to design and fabricate a PCB, that usually means that you have already worked out your circuit on a breadboard.  You may even have soldered up one or two of said circuit on a protoboard. A dedicated PCB can save you space and keep you from having to solder a million jumpers all over your protoboard.  For this tutorial, we're going to use a PWM controller I designed based on [this circuit](http://makezine.com/projects/the-dial-a-speed/).  This circuit and it will show some of the features of that can make a PCB more desirable than a protoboard.  [Here](https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/CircuitBoardOthermill/assets/555PWM.fzz) is the Fritzing file we'll be using (it is also in the assets folder of this repo).
 
 So, we're going to open that up in Frizting, which should look a little something like this:
 ![alt text][1]
