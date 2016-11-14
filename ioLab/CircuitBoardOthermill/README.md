@@ -27,7 +27,7 @@ Once we've passed the DRC and we're ready to export, go to *File-->Export-->For 
 
 ![alt text][4]
 
-## 3. Preparing the file for milling in Otherplan
+## 2. Preparing the file for milling in Otherplan
 Open Otherplan and connect the Othermill to your computer with a USB cable.  Home the machine.
 The material we are using in this tutorial is single-sided FR-1.  Measure the size of your blank and input it into the appropriate boxes. It is important when measuring the thickness of the board to include the layer of double-sided tape used to adhere the board to the mill.  If you don't include this, you may cut into the spoilboard.
 In Otherplan, make sure that your material is aligned to the bracket.  This is handy for single sided boards and essential for double-sided boards where the bracket provides the registration for the flip milling.
@@ -44,7 +44,7 @@ Specify which endmills you will be using for your job.  For this design, we will
 
 **Note on double sided boards:** When cutting the first side, you only want to cut the traces.  Wait to cut the holes and outline when you do the other side.  You can select/deselect what features are cut by clicking the buttons labeled *Traces, Holes,* and *Outlines*.
 
-## 4. Preparing the circuit board blank and mill
+## 3. Preparing the circuit board blank and mill
 In order to mill a circuit board, our pcb blank needs to be affixed to the mill's bed so it won't move around while the job is running.  A few strips of double-sided tape will do the trick here.  Make sure there are no folds or crinkles in the tape and that the tape is not overlapping itself.  We want the board to be as level as possible for milling and even a double thickness of tape can throw things off. It should look something like this:
 
 ![alt text][7]
@@ -57,7 +57,7 @@ Next, we need to put the bit into the mill. Please refer to this [excellent tuto
 
 When you have imported your design and chosen all the parameters, begin milling the board by clicking "Start Milling." There will also be an estimate of the time it will take to mill your board.  Otherplan will inform you when and how to change endmills.
 
-## 5. Finishing
+## 4. Finishing
 Once we have cut the traces and cut out the board, it is time to put it into use!!!  Use a scraper to get the PCB off the bed of the mill and remove all double-sided tape and dust from both the spoilboard and your PCB.  Don't forget to vacuum out the Othermill so it is clean for the next person! 
 
 ![alt text][10]
