@@ -1,19 +1,20 @@
 # Vinyl Cutter/Plotter Quick Guide
-## Quick Facts:
+![alt text][1]
+## About This Process:
 - Uses Adobe Illustrator vector files 
-- Can cut and draw on vinyl or paper up to card stock thickness.
-- Dimensions: The max width is 24 inches.  In theory it can be as long as you want or as long as your material
-Process
-On Plotter:
-Load material
-Lift lever on the right side in front below the control panel.
-Load material from the back.
+- Can draw on and cut vinyl or paper up to card stock thickness.
+- Max Dimensions: The max width is 24 inches.  The max length is as long as your material (although difficulty begins to increase around 4-5 feet long.)
+
+## On Plotter:
+**1. Load material:**
+  - Lift lever on the right side in front below the control panel.
+  - Load material from the back.
+![alt text][2]
 
 Adjust gripper wheels to approx 1” (25mm) from edge of material.  Make sure wheels are over a knurled part of the bed roller.
-
-Lower lever to secure in place.
+Lower lever to secure the material in place.
 Insert utensil (e.g. drag knife, pen, marker, etc.) into carriage and secure with screw.
-the tip about ⅛” (3mm) above the surface of the paper.
+It is not necessary to crank hard on the screw.  Finger tight will do.  When inserting something other than the drag knife, locate the tip about ⅛” (3mm) above the surface of the paper.
 
 Turn on Plotter (switch is in back right corner).  The carriage will move all the way to the right.
 Set start point by moving arrows left and right then press “start point” 
