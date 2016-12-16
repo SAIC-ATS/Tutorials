@@ -1,0 +1,36 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=555PWM
+*Date=13:37:57
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;TO220 [THT];20.9268;-25.0001;90;Bottom;TIP122
+2;10µF;100 mil [THT, electrolytic];19.4028;-33.8901;180;Bottom;100µF
+3;;;10.8891;-0.658456;0;Bottom;TXT1
+4;;300 mil [THT];19.4028;-12.2747;-90;Bottom;D3
+5;;THT;11.0208;-5.69612;-90;Bottom;OUT
+6;0.1µF;200 mil [THT, multilayer];9.87778;-14.8401;-90;Bottom;C2
+7;;300 mil [THT];2.89278;-35.8205;90;Bottom;D1
+8;;;2.89278;-43.4151;0;Bottom;Hole3
+9;;;11.0067;-37.0651;0;Bottom;TXT2
+10;;;11.1243;-45.7602;180;Bottom;TXT1
+11;;THT;2.89278;-23.7301;180;Bottom;R1
+12;;THT;11.2748;-40.4941;90;Bottom;5-16 Vin
+13;10k;THT;11.7828;-33.2551;180;Bottom;R2
+14;;;19.4028;-43.4151;0;Bottom;Hole4
+15;1k;THT;11.7828;-30.7151;0;Bottom;R3
+16;;;2.89278;-2.77504;0;Bottom;Hole1
+17;;300 mil [THT];2.89278;-11.6905;90;Bottom;D2
+18;0.1µF;200 mil [THT, multilayer];13.0528;-14.8401;-90;Bottom;C3
+19;;;19.4028;-2.77504;0;Bottom;Hole2
+20;;;11.5946;-9.07799;0;Bottom;TXT2
+21;;DIP8 [THT];10.5128;-23.7301;0;Bottom;555
