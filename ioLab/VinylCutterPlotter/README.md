@@ -9,9 +9,10 @@
 **1. Load material:**
   - Lift lever on the right side in front below the control panel.
   - Load material from the back.
+
 ![alt text][2]
 
-Adjust gripper wheels to approx 1” (25mm) from edge of material.  Make sure wheels are over a knurled part of the bed roller.
+  -Adjust gripper wheels to approx 1” (25mm) from edge of material.  Make sure wheels are over a knurled part of the bed roller.
 Lower lever to secure the material in place.
 Insert utensil (e.g. drag knife, pen, marker, etc.) into carriage and secure with screw.
 It is not necessary to crank hard on the screw.  Finger tight will do.  When inserting something other than the drag knife, locate the tip about ⅛” (3mm) above the surface of the paper.
