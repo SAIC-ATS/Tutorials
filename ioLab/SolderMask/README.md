@@ -7,12 +7,14 @@ This tutorial will show how to mill a board on the [Othermill](http://othermachi
 - Developer/Fixer (Soda Ash)
 - Scotch tape
 - Transparency film
+
 ### Equipment
 - Othermill
 - Printer
 - Laminator
 - Non-metal container
 - Old toothbrush or other soft-bristle brush
+
 ### Skills
 - Designing PCBs in Fritzing, Eagle, or other PCB design software.
 - [Milling boards on the Othermill.](https://github.com/SAIC-ATS/Tutorials/tree/master/ioLab/CircuitBoardOthermill)
@@ -29,8 +31,7 @@ Press "Start Milling" and wait patiently.
 ## Preparing to expose the solder mask
 The tutorial from here on out generally follows [this video](https://www.youtube.com/watch?v=B0Syj4awcc8) from [Rembrandt Electronics](http://www.rembrandtelectronics.com/).
 
-This tutorial uses dry film solder mask, known as Dynamask.  This is a photo-sensitive material that comes in sheets or rolls with protective plastic on both sides.  Because it is photo-sensitive, you need to create a transparency that will keep light off of the pads and allows light to get through to the rest of the board.  To do this, open up
-
+This tutorial uses dry film solder mask, known as Dynamask.  This is a photo-sensitive material that comes in sheets or rolls with protective plastic on both sides.  Because it is photo-sensitive, you need to create a transparency that will keep light off of the pads and allows light to get through to the rest of the board.  To do this, open up your PCB design editor (I will be using)
 
 Print Transparency (Stop layers)
 Cut Dynamask to size (larger than final board size)
