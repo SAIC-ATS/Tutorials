@@ -1,14 +1,14 @@
 # Creating masked circuit boards for SMD parts
 
 This tutorial will show how to mill a board on the [Othermill](http://othermachine.co) and use light-sensitive solder mask to mask everything but the pads.  This is especially useful for surface-mount (SMD) designs where we want to use solder paste.  The mask keeps the paste where we want it so we have good connections and less chance of solder bridges.
-### Materials
+#### Materials
 - FR1 (PCB material)
 - Dynamask (photo-sensitive dry film resist)
 - Developer/Fixer (Soda Ash)
 - Scotch tape
 - Transparency film
 
-### Equipment
+#### Equipment
 - Othermill
 - Printer
 - Laminator
@@ -16,7 +16,7 @@ This tutorial will show how to mill a board on the [Othermill](http://othermachi
 - Non-metal container large enough to hold your board.
 - Old toothbrush or other soft-bristle brush
 
-### Skills
+#### Skills
 - Designing PCBs in Fritzing, Eagle, or other PCB design software.
 - [Milling boards on the Othermill.](https://github.com/SAIC-ATS/Tutorials/tree/master/ioLab/CircuitBoardOthermill)
 
@@ -33,6 +33,7 @@ Press "Start Milling" and wait patiently.
 The tutorial from here on out generally follows [this video](https://www.youtube.com/watch?v=B0Syj4awcc8) from [Rembrandt Electronics](http://www.rembrandtelectronics.com/).
 
 This tutorial uses dry film solder mask, known as Dynamask.  This is a photo-sensitive material that comes in sheets or rolls with protective plastic on both sides.  Note that one side has a shiny finish and the other a matte finish.  Because it is photo-sensitive, you need to create a transparency that will keep light off of the pads and allows light to get through to the rest of the board.  I will show how to do this on Eagle.
+
 ### Print transparency
 1. With your board file open, open the layers settings by pressing this button: (image of layers settings button here).
 2. Hide all of the layers except for `tStop` and `Dimension`.
@@ -53,6 +54,7 @@ IMAGE!!!
 
 ### Expose masking film
 Exposure times will vary based on what UV source you are using.  We tested using a nail polish curing lamp for two minutes.  It's not a bad idea to plan some testing into your timetable.
+
 1. Expose your masked board to UV light for 45sec-2min.  
 2. Place exposed board into a dark place (to stop exposure) for one hour.  This allows the masking material to polymerize.
 
