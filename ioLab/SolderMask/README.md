@@ -1,7 +1,5 @@
 # Creating masked circuit boards for SMD parts
 
-HEADLINE IMAGE
-
 This tutorial will show how to mill a board on the [Othermill](http://othermachine.co) and use light-sensitive solder mask to mask everything but the pads.  This is especially useful for surface-mount (SMD) designs where we want to use solder paste.  The mask keeps the solder where we want it so we have good connections and less chance of solder bridges.
 #### Materials
 - FR1 (PCB material)
@@ -90,6 +88,7 @@ Exposure times will vary based on what UV source you are using.  We tested using
 
 ### Cut holes and outline
 *I told you you would need to remember the position of your board design in Otherplan!*
+
 1. Put your board back into the Othermill, paying attention to place it as close to the original position as possible.
 2. In Otherplan, deselect  `Traces` and select `Holes` and `Outline`.  Change the milling tool to `1/32in Flat End Mill` and add smaller flat end mills if needed.
 3. Press "Start Milling" and wait patiently.
