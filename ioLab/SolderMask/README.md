@@ -5,6 +5,7 @@ HEADLINE IMAGE
 This tutorial will show how to mill a board on the [Othermill](http://othermachine.co) and use light-sensitive solder mask to mask everything but the pads.  This is especially useful for surface-mount (SMD) designs where we want to use solder paste.  The mask keeps the solder where we want it so we have good connections and less chance of solder bridges.
 #### Materials
 - FR1 (PCB material)
+- Double-sided tape
 - Dynamask (photo-sensitive dry film resist)
 - Developer/Fixer (Soda Ash)
 - Scotch tape
@@ -31,7 +32,7 @@ To start,  import your board design into Otherplan and position it so there will
 - In the *Advanced Settings*, change the *Trace Depth* to `0.07mm`.  Change the *Trace Clearance* to `0.0mm`.
 This is to reduce the amount of material removed and keep as much surface area as possible for the solder mask to stick to.
 
-IMAGE OF OTHERPLAN SETTINGS
+![alt text][1]
 
 Press "Start Milling" and wait patiently.
 
@@ -53,15 +54,16 @@ Once you have your transparency, you are ready to move on to the next step.
 
 IMAGE OF transparency
 ### Prep board for exposure
-1. Cut Dynamask to size.  This should be smaller than your piece of FR1, but larger than the final board size).
+1. Clean off any milling dust and wipe your board down with alcohol or acetone so the board is clean of dust, oils, and debris.
+2. Cut Dynamask to size.  This should be smaller than your piece of FR1, but larger than the final board size).
 IMAGE!!!
-2. Peel off matte protective layer.  The video linked above has a pretty slick way of doing this with the Scotch tape.
-3. Lay down the masking film on the board, being careful not to introduce any bubbles.
-4. Run your board+masking film through the laminator five times.  Make sure you put it through the same orientation each time to help squeeze out any bubbles.
+3. Peel off matte protective layer.  The video linked above has a pretty slick way of doing this with the Scotch tape.
+4. Lay down the masking film on the board, being careful not to introduce any bubbles.
+5. Run your board+masking film through the laminator five times.  Make sure you put it through the same orientation each time to help squeeze out any bubbles.
 GIF OF BOARD GOING THRU LAMINATOR
-5. Immediately rinse your board under some cold water. This will help the masking film to adhere strongly to your board. Dry your board with a paper towel before moving on to the next step.
-6. Peel off the shiny masking film.  This is a deviation from the order of operations in the video above.  The tacky surface of the masking film holds the transparency in place nicely for the exposure.  
-7. Carefully align your transparency to the pads on your board.  You may want to cut down the transparency to be closer to the size of your board to make this easier.  Once it is aligned, press down firmly to adhere the transparency to the board.
+6. Immediately rinse your board under some cold water. This will help the masking film to adhere strongly to your board. Dry your board with a paper towel before moving on to the next step.
+7. Peel off the shiny masking film.  This is a deviation from the order of operations in the video above.  The tacky surface of the masking film holds the transparency in place nicely for the exposure.  
+8. Carefully align your transparency to the pads on your board.  You may want to cut down the transparency to be closer to the size of your board to make this easier.  Once it is aligned, press down firmly to adhere the transparency to the board.
 IMAGE OF TRANSPARENCY ON MASKING FILM
 
 ### Expose masking film
@@ -85,6 +87,11 @@ IMAGE
 2. In Otherplan, deselect  `Traces` and select `Holes` and `Outline`.  Change the milling tool to `1/32in Flat End Mill` and add smaller flat end mills if needed.
 3. Press "Start Milling" and wait patiently.
 
+![alt text][2]
+
 You're done! You should have a great looking board that is ready for soldering by hand or with solder paste.
 
 IMAGE IMAGE
+
+[1]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/OthermillSettings.png?raw=true "Othermill settings."
+[2]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/HolesCutout.png?raw=true "Holes and Cutout."
