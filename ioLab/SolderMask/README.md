@@ -63,7 +63,9 @@ Once you have your transparency, you are ready to move on to the next step.
 3. Peel off matte protective layer.  The video linked above has a pretty slick way of doing this with the Scotch tape.
 4. Lay down the masking film on the board, being careful not to introduce any bubbles.
 5. Run your board+masking film through the laminator five times.  Make sure you put it through the same orientation each time to help squeeze out any bubbles.
+
 ![alt text][6]<!-- GIF OF BOARD GOING THRU LAMINATOR -->
+
 6. Immediately rinse your board under some cold water. This will help the masking film to adhere strongly to your board. Dry your board with a paper towel before moving on to the next step.
 7. Peel off the shiny masking film.  This is a deviation from the order of operations in the video above.  The tacky surface of the masking film holds the transparency in place nicely for the exposure.  
 8. Carefully align your transparency to the pads on your board.  You may want to cut down the transparency to be closer to the size of your board to make this easier.  Once it is aligned, press down firmly to adhere the transparency to the board.
@@ -96,7 +98,7 @@ Exposure times will vary based on what UV source you are using.  We tested using
 ![alt text][2] <!-- Otherplan Cutout-->
 
 You're done! You should have a great looking board that is ready for soldering by hand or with solder paste.
-![alt text][12] <!-- Finished Board -->
+<!-- ![alt text][12] <!-- Finished Board --> -->
 
 [1]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/OthermillSettings.png?raw=true "Othermill settings."
 [2]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/HolesCutout.png?raw=true "Holes and Cutout."
@@ -107,7 +109,6 @@ You're done! You should have a great looking board that is ready for soldering b
 [7]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/MaskWithTransparency.jpg?raw=true  "Transparency adhered to masking film"
 [8]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/UVExposure.jpg?raw=true "Exposing the film with UV lamps."
 [9]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/CutMask.jpg?raw=true "text"
-[10]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/Washing.jpg?raw=true "Washing the board"
+[10]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/Washing.jpg?raw=true "Washing the board...which was too big for the container I had."
 [11]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/AllClean.jpg?raw=true "All clean!"
 [12]: link "Finished board, drilled and cut!"
-[13]: link "text"
