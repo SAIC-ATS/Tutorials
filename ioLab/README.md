@@ -4,4 +4,4 @@ A series of tutorials involving the Art & Technology Studies ioLab.  Mostly digi
 Future tutorials:
 - DIY paste extruder for 3D printing
 - SMD soldering
-- 
+- ...
