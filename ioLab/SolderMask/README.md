@@ -55,9 +55,7 @@ This tutorial uses dry film solder mask, known as Dynamask.  This is a photo-sen
 
 #### Fritzing
   1. With your Fritzing project on the PCB View window, go to `File>>Export>>For Production>>Etchable (PDF)...`.  This will export several files, so I recommend creating a folder to keep everything tidy.  Find the file ending in "etch_mask_layer(s).pdf
-
-![alt text][14]
-
+  ![alt text][14]
   2. Make sure the transparency film is loaded properly in your printer and press print.
 
 Once you have your transparency, you are ready to move on to the next step.
