@@ -40,24 +40,29 @@ Press "Start Milling" and wait patiently.
 ## Preparing to expose the solder mask
 The tutorial from here on out generally follows [this video](https://www.youtube.com/watch?v=B0Syj4awcc8) from [Rembrandt Electronics](http://www.rembrandtelectronics.com/).
 
-This tutorial uses dry film solder mask, known as Dynamask.  This is a photo-sensitive material that comes in sheets or rolls with protective plastic on both sides.  Note that one side has a shiny finish and the other a matte finish.  Because it is photo-sensitive, you need to create a transparency that will keep light off of the pads and allows light to get through to the rest of the board.  I will show how to do this on Eagle.
+This tutorial uses dry film solder mask, known as Dynamask.  This is a photo-sensitive material that comes in sheets or rolls with protective plastic on both sides.  Note that one side has a shiny finish and the other a matte finish.  Because it is photo-sensitive, you need to create a transparency that will keep light off of the pads and allows light to get through to the rest of the board.  I will show how to do this on EAGLE and on Fritzing.
 
 ### Print transparency
-1. With your board file open, open the layers settings (shown by the purple arrow in the image below).
-2. Hide all of the layers except for `tStop` and `Dimension`.
+#### EAGLE
+  1. With your board file open, open the layers settings (shown by the purple arrow in the image below).
+  2. Hide all of the layers except for `tStop` and `Dimension`.
 
   ![alt text][3] <!-- Layers settings -->
-3. Go to `File>Print`. In the print dialog box, make sure the `Black` and `Solid` boxes are checked under Options.  Also, the scale factor should be set to `1`.
+  3. Go to `File>>Print`. In the print dialog box, make sure the `Black` and `Solid` boxes are checked under Options.  Also, the scale factor should be set to `1`.
 
   ![alt text][4] <!-- Print Settings -->
-4. Make sure the transparency film is loaded properly in your printer and press print.
+  4. Make sure the transparency film is loaded properly in your printer and press print.
+
+#### Fritzing
+  1. With your Fritzing project on the PCB View window, go to `File>>Export>>For Production>>Etchable (PDF)...`.  This will export several files, so I recommend creating a folder to keep everything tidy.  Find the file ending in "etch_mask_layer(s).pdf
+  2. Make sure the transparency film is loaded properly in your printer and press print.
 
 Once you have your transparency, you are ready to move on to the next step.
 
 ![alt text][5] <!-- Transparency -->
 
 ### Prep board for exposure
-1. Clean off any milling dust and wipe your board down with alcohol or acetone so the board is clean of dust, oils, and debris.
+1. Clean off any milling dust and wipe your board down with alcohol or acetone so the board is clean of oils, and debris.
 2. Cut Dynamask to size.  This should be smaller than your piece of FR1, but larger than the final board size).
 ![alt text][9]<!-- Cut Dynamask -->
 3. Peel off matte protective layer.  The video linked above has a pretty slick way of doing this with the Scotch tape.
