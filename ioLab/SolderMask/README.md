@@ -24,7 +24,7 @@ This tutorial will show how to mill a board on the [Othermill](http://othermachi
 - Designing PCBs in Fritzing, Eagle, or other PCB design software.
 - [Milling boards on the Othermill.](https://github.com/SAIC-ATS/Tutorials/tree/master/ioLab/CircuitBoardOthermill)
 
-PHOTO OF MATERIALS AND EQUIPMENT
+![alt text][13]
 
 ## Milling the board
 To start,  import your board design into Otherplan and position it so there will be a generous border around your board.  Make note of the position of the board; you are going to need it later!  Because you are going to be adding a solder mask, you need to alter some of the settings before milling:
@@ -55,6 +55,9 @@ This tutorial uses dry film solder mask, known as Dynamask.  This is a photo-sen
 
 #### Fritzing
   1. With your Fritzing project on the PCB View window, go to `File>>Export>>For Production>>Etchable (PDF)...`.  This will export several files, so I recommend creating a folder to keep everything tidy.  Find the file ending in "etch_mask_layer(s).pdf
+
+![alt text][14]
+
   2. Make sure the transparency film is loaded properly in your printer and press print.
 
 Once you have your transparency, you are ready to move on to the next step.
@@ -117,3 +120,5 @@ You're done! You should have a great looking board that is ready for soldering b
 [10]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/Washing.jpg?raw=true "Washing the board...which was too big for the container I had."
 [11]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/AllClean.jpg?raw=true "All clean!"
 [12]: link "Finished board, drilled and cut!"
+[13]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/Materials.jpg?raw=true "Get your materials together."
+[14]:https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/SolderMask/assets/Fritzing.png?raw=true
