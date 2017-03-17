@@ -94,7 +94,7 @@ To cut out the board, you must have an image with a white shape for your board s
 <!-- image of board cutout  -->
 ![alt text][7]
 
-Cutting the holes and board are relatively the same as cutting the traces.  Follow steps 1-3 above with the following changes:
+Cutting the holes and outline are relatively the same as cutting the traces.  Follow steps 1-3 above with the following changes:
 
 - Select the `PCB outline (1/32)` process
 - Change specific process details EDIT HERE!!
