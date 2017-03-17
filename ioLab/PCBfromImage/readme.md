@@ -3,6 +3,8 @@
 Sometimes, you just want to get to making a PCB without having to go to all the trouble of actually *designing* it.  Sometimes you stumble across a sweet electronics project, but instead of editable design files, there is only a black and white image for photo etching.  There are several ways to get around this problem, but one of the fastest for us here in the ioLab is to use [Fab Modules](www.fabmodules.org) to turn the image into toolpaths for the Othermill.
 
 >Fab Modules is a browser-based CAM system, which allows to generate toolpaths for and control lasercutters, CNC-mills and waterjets commonly found in [fablabs](https://www.fablabs.io/).
+>
+>--Fab Modules Github
 
 ## 1. Openining the Image
 First, go to the [Fab Modules website](www.fabmodules.org).  When you first arrive, it will be mostly empty, white space.
@@ -27,6 +29,8 @@ Now we need to select our output format.  Click `Select Output Format` and selec
 
 Now we need to select our process.  For this tutorial, I'm going to use the `PCB traces (1/64)` process because I am cutting the traces into the copper on my board.
 
+<!-- process menu -->
+![alt text][5]
 ## 2. A Look at the Settings
 
 On the right hand side, there are several settings to modify that will affect both how the image gets processed into toolpaths, as well as how the toolpaths get made. Let's look at those in more detail before we move on to the next step.
@@ -110,12 +114,12 @@ Cutting the holes and outline are relatively the same as cutting the traces.  Fo
 
 
 
-[1]: link "fabmodules.org"
-[2]: link "input menu"
-[3]: link "input complete!"
-[4]: link "output menu"
-[5]: link "process menu"
-[6]: link "process details"
-[7]: link "fabmodules.org"
-[8]: link "fabmodules.org"
-[9]: link "fabmodules.org"
+[1]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/FabModules001.png?raw=true "fabmodules.org"
+[2]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/InputMenu.png?raw=true "input menu"
+[3]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/InputComplete.png?raw=true "input complete!"
+[4]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/OutputMenu.png?raw=true "output menu"
+[5]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/ProcessMenu.png?raw=true "process menu"
+[6]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/ProcessDetails.png?raw=true "process details"
+[7]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/FabModules001.png?raw=true "fabmodules.org"
+[8]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/FabModules001.png?raw=true "fabmodules.org"
+[9]: https://github.com/SAIC-ATS/Tutorials/blob/master/ioLab/PCBfromImage/assets/FabModules001.png?raw=true "fabmodules.org"
